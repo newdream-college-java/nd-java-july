@@ -1,1 +1,5 @@
-阿凡达手动阀手动阀手动阀
+public class A{
+	public static void main(String[] args){
+		System.out.println("helloword");
+	}
+}

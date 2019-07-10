@@ -1,1 +1,5 @@
-这还是一个测试
+public class B{
+	public static void main(String[] args){
+		System.out.println("小样，这是我写的第一个java程序");
+	}
+}
