@@ -8,4 +8,5 @@ public class E {
 		System.out.println("\t\t 2、查询用户");
 		System.out.println("\t\t 3、退出系统");
 		System.out.println("*********************************************");
+	}
 }

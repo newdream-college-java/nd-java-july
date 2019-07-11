@@ -10,4 +10,5 @@ public class F {
 		System.out.println("¨U\t\t\t¨U");
 		System.out.println("¨U\t\t\t¨U");
 		System.out.println("¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a");
+	}
 }
