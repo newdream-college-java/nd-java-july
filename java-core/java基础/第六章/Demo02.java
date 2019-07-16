@@ -1,0 +1,34 @@
+/*
+1.2、 开发一个标题为”FlipFlop”的游戏应用程序。
+它从 1 计数到 100，遇到 3的倍数就输出单词“Flip”，
+遇到 5 的倍数就输出单词”Flop”，既为 3 的倍数也为5 的倍数
+就输出”FlipFlop”，其余情况输出当前数。
+*/
+import java.util.Scanner;
+public class Demo02{
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("*******FlipFlop*********");
+		System.out.print("   输入1开始运行：");
+		int st  = input.nextInt();
+		while(st!=1){
+			System.out.print("您的输入有误，请重新输入：");
+			st = input.nextInt();
+		}
+		for(int i = 1;i<=100;i++){
+			if(i%15 ==0){
+				System.out.println("FlipFlop");
+			}
+			else if(i%3 == 0){
+				System.out.println("Flip");
+			}
+			else if(i%5 == 0){
+				System.out.println("Flop");
+			}
+			else{
+				System.out.println(i);
+			}
+		}
+		
+	}
+}
