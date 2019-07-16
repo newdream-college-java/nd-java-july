@@ -32,11 +32,15 @@ public class Demo07{
 				System.out.println("SUN");
 				break;
 				default:
-				System.out.println("输入错误请重新输入");
-				break;
+				if(i!=0){
+					System.out.println("输入错误请重新输入");
+					break;
+				}else{
+					System.out.println("程序结束");
+					break;
+				}
 			}
-		}
-		while(i!=0);
+		}while(i!=0);
 		System.exit(-1);
 	}
 }
