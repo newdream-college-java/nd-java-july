@@ -13,11 +13,11 @@ public class A{
 		for(int i=1;i<=a;i++){
 		c=c*i;
 		if(i==a){
-		System.out.println(i);
+		System.out.print(i);
 		}else {
 		System.out.print(i+"*");
 		}
 		}
-		System.out.println("="+c);
+		System.out.print("="+c);
 }
 }
