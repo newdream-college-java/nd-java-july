@@ -7,7 +7,7 @@ public class G{
 		System.out.println("请输入月份：");
 		int b = input.nextInt();
 		int sum=0;
-		for(int i=1900;i<a;i++){//求重1900年到现在的年天数
+		for(int i=1900;i<a;i++){//求从1900年到现在的年天数
 		if(i%4==0&&i%100!=0||i%400==0){ //条件成立就是闰年
 		sum+=366;  
 		}else {
