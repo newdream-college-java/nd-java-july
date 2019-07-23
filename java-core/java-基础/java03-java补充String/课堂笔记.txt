@@ -1,0 +1,36 @@
+一，字符串  String   
+1、不可变字符串 (字符串常量保存在方法区)
+	String s = "abc"; 
+	s = "def";
+2、定义字符串变的方式
+	方式一：String s = "abc";
+
+	方法二：String s1 = new String("abc");
+
+	面试题：String s2 =new String("abc");请问在内存中创建了几个对象？
+		答：有可能是一个对象，有可能是2个对象；常量池中如果没有"abc" ,那么
+		先创建"abc"常量对象，然后再创建new String("abc");对象。
+		如果常量池中有"abc",只会创建new String("abc");对象。
+3、判断字符串相等？
+	1）== 			比较地址
+	2) equals		比较地址指向的内容
+4、String是一个类，这个类具有哪儿些属性和方法
+	属性：
+		String s = "abc";
+		s.length;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
